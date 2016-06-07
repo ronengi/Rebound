@@ -25,7 +25,7 @@ public class Place {
         
         Random rand = new Random();
         setBodies(new ArrayList<>());
-        for (int i = 0; i < 20; ++i) {
+        for (int i = 0; i < 10; ++i) {
             double x = rand.nextDouble() * width;
             double y = rand.nextDouble() * height;
             bodies.add(new RigidBody(x, y));
